@@ -1,0 +1,25 @@
+﻿Assignment name: Assignment 5
+TCSS 305 C: Programming Practicum, Winter 2023
+
+
+Name: Anwar Noor
+UWNetID: anwarn
+
+
+Assignment Overview:
+This assignment involved creating panels to control the red, green, and blue values of a color model using Java Swing. Each panel included sliders, buttons, and text fields to adjust and display color values. The goal was to learn event-driven programming and how to keep the user interface synchronized with the model through listeners.
+
+
+Technical Impression:
+I built three panels (RedRowPanel, GreenRowPanel, and BlueRowPanel) to adjust the corresponding color values. Each panel included buttons to increase or decrease the value, a slider for dynamic adjustments, and a text field for direct input. A JCheckBox enabled or disabled editing of the text field. To keep everything synchronized, I used PropertyChangeListener to update the display when the model changed. Input validation ensured that users could only enter values between 0 and 255. Writing similar functionality for all three panels was repetitive but helped me understand how to structure reusable code and manage event listeners.
+
+
+Unresolved problems in my submission:
+None
+Citations and Collaborations:
+None
+Extra Credit Attempted:
+None
+
+Questions:
+None
